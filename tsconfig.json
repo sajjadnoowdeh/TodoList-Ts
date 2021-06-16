@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [ 
+        "es2017.object", "dom",
+        "dom.iterable",
+        "esnext"],  
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "noUnusedLocals": true, /* Report errors on unused locals. */
+    "noUnusedParameters": false, /* Report errors on unused parameters. */
+    "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
+    "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "downlevelIteration": true,  
+    "outDir": "./build/",
+    "sourceMap": true,
+    },
+    "include": ["src"],
+    "exclude": ["./build/"]
+}
